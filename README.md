@@ -1,10 +1,10 @@
-# binary-parser
+# binary-parse-fn
 
   Painless streaming binary protocol parsers using generators.
 
 ## Installation
 
-    npm install binary-parser
+    npm install binary-parse-fn
 
 ## Streaming use
 
@@ -13,7 +13,7 @@
 ## Usage
 
 ```javascript
-var BinaryParser = require('binary-parser')
+var BinaryParser = require('binary-parse-fn')
 ```
 
   BinaryParser is a function that takes a buffer and passes the return value of your generator back.
@@ -26,7 +26,7 @@ var BinaryParser = require('binary-parser')
   It returns `{type, buf}` objects.
 
 ```js
-var BinaryParser = require('binary-parser')
+var BinaryParser = require('binary-parse-fn')
 
 module.exports = BinaryParser(function*() {
   var type = (yield 4).readUInt32BE(0, true)
