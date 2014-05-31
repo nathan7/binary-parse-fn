@@ -1,0 +1,26 @@
+{
+  "name": "binary-parser",
+  "version": "1.0.0",
+  "description": "Painless binary protocol parsers using generators.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathan7/binary-parser.git"
+  },
+  "keywords": [
+    "generator",
+    "binary",
+    "synchronous",
+    "parse",
+    "parser"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathan7/binary-parser/issues"
+  },
+  "homepage": "https://github.com/nathan7/binary-parser",
+  "dependencies": {
+    "readable": "^1.1.2"
+  }
+}
